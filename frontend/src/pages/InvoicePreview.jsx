@@ -60,7 +60,6 @@ const InvoicePreview = () => {
         <table width="100%" border="1" cellPadding="5" cellSpacing="0">
           <thead>
             <tr>
-              {/* <th>Date</th> */}
               <th>Description</th>
               <th>Qty</th>
               <th>Rate</th>
@@ -70,7 +69,6 @@ const InvoicePreview = () => {
           <tbody>
             {items.map((item, idx) => (
               <tr key={idx}>
-                {/* <td>{item.date}</td> */}
                 <td>{item.description}</td>
                 <td>{item.qty}</td>
                 <td>{item.rate}</td>
