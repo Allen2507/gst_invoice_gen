@@ -27,3 +27,4 @@ dist-ssr
 # Environment variables
 # Ignore environment variable files
 .env
+backend/.env
