@@ -15,8 +15,8 @@ const companyInfo = {
     bankName: 'XYZ Bank',
     branch: 'Chennai'
   },
-  logo: '/logo.png',
-  signature: '/signature.png'
+  logo: 'https://img.freepik.com/premium-vector/modern-jj-logo-design-template-royaltyfree-vector-illustration_662525-55.jpg',
+  signature: 'https://static.vecteezy.com/system/resources/previews/000/538/077/original/manual-signature-for-documents-on-white-background-hand-drawn-calligraphy-lettering-vector-illustration.jpg'
 };
 
 const InvoicePreview = () => {
@@ -60,6 +60,7 @@ const InvoicePreview = () => {
         <table width="100%" border="1" cellPadding="5" cellSpacing="0">
           <thead>
             <tr>
+              {/* <th>Date</th> */}
               <th>Description</th>
               <th>Qty</th>
               <th>Rate</th>
@@ -69,6 +70,7 @@ const InvoicePreview = () => {
           <tbody>
             {items.map((item, idx) => (
               <tr key={idx}>
+                {/* <td>{item.date}</td> */}
                 <td>{item.description}</td>
                 <td>{item.qty}</td>
                 <td>{item.rate}</td>

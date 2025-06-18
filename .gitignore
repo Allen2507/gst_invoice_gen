@@ -22,9 +22,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-
-# Environment variables
-# Ignore environment variable files
-.env
-backend/.env
